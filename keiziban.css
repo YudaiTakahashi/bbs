@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body,table {
+  font-family: メイリオ;
+  font-size: 10pt;
+  color:#000000;
+    background-image: url("http://japanism.info/images/snow-background-sozai1.png");
+  }
+.box{
+  position: relative;
+  width:600px;
+  text-align:center;
+  margin: 0 auto;
+  }
+table {
+  border-collapse: collapse;
+  border-spacing:1px;
+  }
+.outer{
+  margin: 0 auto;
+  }
+.titleouter{
+  text-align:center;
+  color:#27408B;
+  font-size: 12pt;
+  }
+.texttop{
+  vertical-align: text-top;
+  }
+.namewidth{
+  width: 200px;
+  }
+.subjectwidth{
+  width: 400px;
+  }
+.passwordwidth{
+  width:100px;
+  }
+.textright{
+  float: right;
+  }
+.textleft{
+  float: left;
+  }
+.border{
+  width:600px;
+  margin: 0 auto;
+  border-style:solid;
+  border-color:#8DB6CD;
+  }
+b{
+  font-weight: bold;
+  color:#d2691e;
+  }
+.divcolor{
+  color:#6495ed;
+  }
+p{
+  text-align: left;
+  }
+.absolute{
+   position: absolute;
+   top: 300px;
+   left: 310px;
+  }
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background: #FFC778;
+  color:white;
+  }
+b{
+  padding-right: 20px;
+}
